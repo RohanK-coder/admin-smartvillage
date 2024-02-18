@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technologies Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Technologies Form</h1>
+    <form action="/tech" method="post">
+        <label for="provider">Provider:</label>
+        <input type="text" id="provider" name="provider" required>
+        
+        <label for="image">Image URL:</label>
+        <input type="text" id="image" name="image" required>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required>
+
+        <label for="affiliated">Affiliated:</label>
+        <input type="text" id="affiliated" name="affiliated" required>
+
+        <label for="solutionType">Solution Type:</label>
+        <input type="text" id="solutionType" name="solutionType" required>
+
+        <label for="sector">Sector:</label>
+        <input type="text" id="sector" name="sector" required>
+
+        <label for="website">Website:</label>
+        <input type="text" id="website" name="website" required>
+
+        <label for="projectLifeCycle">Project Life Cycle:</label>
+        <input type="text" id="projectLifeCycle" name="projectLifeCycle" required>
+
+        <label for="generalDetails">General Details:</label>
+        <input type="text" id="generalDetails" name="generalDetails" required>
+
+        <label for="impact">Impact:</label>
+        <input type="text" id="impact" name="impact" required>
+
+        <label for="resources">Resources:</label>
+        <input type="text" id="resources" name="resources" required>
+
+        <label for="webArticles">Web Articles:</label>
+        <input type="text" id="webArticles" name="webArticles" required>
+
+        <label for="webArticlesURL">Web Articles URL:</label>
+        <input type="text" id="webArticlesURL" name="webArticlesURL" required>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
